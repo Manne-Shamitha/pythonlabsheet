@@ -1,0 +1,11 @@
+list1=list()
+list2=list()
+list3=list()
+n=int(input("enter no.of chars: "))
+for i in range(n):
+    list1.append(input("enter char {}: ".format(i+1)))
+print(list1)
+m=int(input("enter split range: "))
+for i in range(m):
+    list3.appendinput((list1[i::m]))
+print(list3)
