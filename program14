@@ -1,0 +1,3 @@
+s=("  hii hello everyone goodmorining  ")
+l1=s.strip()
+print(l1)
