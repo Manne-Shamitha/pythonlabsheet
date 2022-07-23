@@ -1,0 +1,9 @@
+a='AEIOUaeiou'
+b=input("enter any string: ")
+count=0
+l=len(b)
+count=[i for i in b if i in a]
+print(count)
+c=len(count)
+print("the count of vowels: ",c)
+print("percentage: ",c/len(b)*100)
