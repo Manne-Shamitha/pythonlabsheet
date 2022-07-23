@@ -1,0 +1,7 @@
+list1=list()
+n=int(input("enter no.of numbers you want to add to the list: "))
+for i in range(n):
+    list1.append(int(input("enter number {}: ".format(i+1))))
+print("the number in the list: ",list1)
+print("maximum number: ",max(list1))
+print("minimum number: ",min(list1))
