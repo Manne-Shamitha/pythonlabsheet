@@ -1,0 +1,9 @@
+list1=list()
+tuple1=tuple()
+n=int(input("enter no.of elements in a tuple: "))
+for i in range(n):
+    list1.append(int(input("enter element {}: ".format(i+1))))
+tuple1=tuple(list1)
+print(tuple1)
+res=tuple(set(tuple1))
+print(res)
