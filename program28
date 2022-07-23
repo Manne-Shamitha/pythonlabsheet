@@ -1,0 +1,10 @@
+list1=list()
+tuple1=tuple()
+n=int(input("enter no.of elements of tuple: "))
+for i in range(n):
+    list1.append(int(input("enter element {}: ".format(i+1))))
+tuple1=tuple(list1)
+print("my tuple: ",tuple1)
+list1.reverse()
+tuple2=tuple(list1)
+print("after reversing the tuple: ",tuple2)
